@@ -2,11 +2,10 @@
     height: 400px;
     width: 800px;
     background-color: #fff;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    border-radius: 4%;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
+
 
 .prev_button , .nex_button{
     background-color: #4E5089;
@@ -16,20 +15,46 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+    top:45%;
 }
 .prev_button{
-    margin-left: -25px;
+  float: left;
     border-radius: 50% 8px 8px 50%;
+    margin-left: -30px;
 }
 
 .nex_button{
-    margin-right: -25px;
+    float: right;
+    margin-right: -30px;
     border-radius: 8px 50% 50% 8px;
+ 
 }
 
 .prev_button , .nex_button span i {
     color: #fff;
 }
 
+.slider_content_section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+}
+
+.slider_client_title h5{
+    font-size: 11px;
+    margin-left: 16px;
+}
+
+
+.slider_image_section img{
+    width: 128px;
+    position: absolute;
+    margin-top: 28px;
+    margin-left: -67px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
 
 
