@@ -13,20 +13,35 @@ const TestimonialSlider = () => {
        
     }, []);
 
-    const [currentContent, setcurrentContent] = useState([]);
+    const [currentContent, setcurrentContent] = useState({});
+
+
+    const ClickButtonHandleer = (order) =>{
+
+        let currentElent = 0;
+        if(order == 1){
+            currentElent = currentContent.id - 1;
+        }else{
+            currentElent = currentContent.id + 1;
+        }
+
+        const NewElement = TestimonialData.find(data => data.id ===  currentElent);
+        console.log(NewElement);
+        //  setcurrentContent(NewElement);
+    }
 
 
   return (
     <>
       <div className="testimonial_box">
 
-          <div className="prev_button">
+          <div onClick={()=> ClickButtonHandleer(0)} className="prev_button">
             <span>
               <i class="fas fa-arrow-left"></i>
             </span>
           </div>
 
-          <div className="nex_button">
+          <div onClick={()=> ClickButtonHandleer(1)} className="nex_button">
             <span>
               <i class="fas fa-arrow-right"></i>
             </span>

@@ -9,42 +9,42 @@ export const TestimonialData = [
     },
     {
         id: 2,
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid labore, nam veniam tenetur quod laboriosam maiores expedita at tempora eos, adipisci ad mollitia rerum qui dignissimos commodi, corrupti perspiciatis. Eos!",
+        text: "slider Text 2",
         image: MyImage,
     },
     {
         id: 3,
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid labore, nam veniam tenetur quod laboriosam maiores expedita at tempora eos, adipisci ad mollitia rerum qui dignissimos commodi, corrupti perspiciatis. Eos!",
+        text: "slider text 3",
         image: MyImage,
     },
     {
         id: 4,
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid labore, nam veniam tenetur quod laboriosam maiores expedita at tempora eos, adipisci ad mollitia rerum qui dignissimos commodi, corrupti perspiciatis. Eos!",
+        text: "slider text 4",
         image: MyImage,
     },
     {
         id: 5,
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid labore, nam veniam tenetur quod laboriosam maiores expedita at tempora eos, adipisci ad mollitia rerum qui dignissimos commodi, corrupti perspiciatis. Eos!",
+        text: "slider text 5 ",
         image: MyImage,
     },
     {
         id: 6,
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid labore, nam veniam tenetur quod laboriosam maiores expedita at tempora eos, adipisci ad mollitia rerum qui dignissimos commodi, corrupti perspiciatis. Eos!",
+        text: "slider text 6",
         image: MyImage,
     },
     {
         id: 7,
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid labore, nam veniam tenetur quod laboriosam maiores expedita at tempora eos, adipisci ad mollitia rerum qui dignissimos commodi, corrupti perspiciatis. Eos!",
+        text: "slider text 7",
         image: MyImage,
     },
     {
         id: 8,
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid labore, nam veniam tenetur quod laboriosam maiores expedita at tempora eos, adipisci ad mollitia rerum qui dignissimos commodi, corrupti perspiciatis. Eos!",
+        text: "slider text 7",
         image: MyImage,
     },
     {
         id: 9,
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid labore, nam veniam tenetur quod laboriosam maiores expedita at tempora eos, adipisci ad mollitia rerum qui dignissimos commodi, corrupti perspiciatis. Eos!",
+        text: "slider text 8",
         image: MyImage,
     },
   
