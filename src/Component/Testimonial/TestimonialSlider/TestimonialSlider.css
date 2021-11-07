@@ -1,0 +1,35 @@
+.testimonial_box{
+    height: 400px;
+    width: 800px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.prev_button , .nex_button{
+    background-color: #4E5089;
+    height: 48px;
+    width: 46px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.prev_button{
+    margin-left: -25px;
+    border-radius: 50% 8px 8px 50%;
+}
+
+.nex_button{
+    margin-right: -25px;
+    border-radius: 8px 50% 50% 8px;
+}
+
+.prev_button , .nex_button span i {
+    color: #fff;
+}
+
+
+

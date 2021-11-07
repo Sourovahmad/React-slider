@@ -1,0 +1,10 @@
+.testomonial_section{
+    min-height: 100vh;
+    background: #F2F1F6;
+}
+.testimonial_box_Section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 32px;
+}
